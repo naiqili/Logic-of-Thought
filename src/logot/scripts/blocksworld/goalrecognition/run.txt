@@ -1,0 +1,5 @@
+cat state_represent_demo3.lp system_desc_manual.lp | clingo 0 --verbose=0 --opt-mode=optN
+
+cat state_represent_demo3.lp system_desc_fewshot_in.lp | clingo 0 --verbose=0 --opt-mode=optN
+
+cat state_represent_demo3.lp system_desc_fewshot_out.lp | clingo 0 --verbose=0 --opt-mode=optN
